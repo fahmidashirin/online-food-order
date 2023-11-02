@@ -1,0 +1,36 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+header .logo{
+    text-decoration: none;
+}
+
+header .navbar a{
+    text-decoration: none;
+}
+.navbar a:hover{
+    text-decoration: none;
+}
+.about{
+    margin: 15rem;
+}
+.heading{
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 1rem;
+    color: crimson;
+}
+.heading span{
+    color: orangered;
+}
+.about p{
+    font-size: 1.7rem;
+    color: #fff;
+}
+@media(max-width:700px){
+    .about{
+        width: 80%;
+        margin: 15rem 0;
+    }
+}

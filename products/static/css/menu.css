@@ -1,0 +1,126 @@
+header .logo{
+    text-decoration: none;
+}
+
+header .navbar a{
+    text-decoration: none;
+}
+.navbar a:hover{
+    text-decoration: none;
+}
+
+.container{
+    margin-top: 90px !important;
+}
+.container h2{
+    color: crimson;
+    text-align: center;
+    font-size: 2.6rem;
+}
+.container h3{
+    color: orangered;
+    text-align: center;
+    font-size: 2rem;
+}
+.container h4{
+    color: red;
+    text-align: justify;
+    font-size: 2.2rem;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+.card{
+    width: 29% !important;
+    text-align: justify !important;
+    background: #fff !important;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2) !important;
+    border: .1rem solid #eee !important;
+    border-radius: 1rem !important;
+    transition: transform .2s !important;
+}
+.card:hover{
+    transform: scale(1.2) !important;
+}
+.card h4{
+    color: orangered;
+    font-size: 1.8rem;
+}
+.card h5{
+    font-size: 1.7rem;
+    color: #333;
+}
+.card p{
+    font-size: 1.5rem;
+    color: #666;
+}
+.card .btn{
+    display: inline-block;
+    padding: .5rem .8rem;
+    color: crimson;
+    border: .1rem solid crimson;
+    font-size: 1.2rem;
+}
+.card .btn:hover{
+    color: #fff;
+    background-color: crimson;
+}
+.d-flex{
+    padding: 20px 410px !important;
+}
+.d-flex .form-control{
+    font-size: 1.5rem !important;
+    border: .1rem solid crimson !important;
+    border-radius: 1rem !important;
+    width: 400px !important;
+    margin: 2rem 0 !important;
+    text-align: center !important;
+    align-items: center !important;
+}
+.d-flex .btn{
+    margin: 2rem 0 !important;
+    color: crimson !important;
+    border: .1rem solid crimson !important;
+    border-radius: 1rem !important;
+}
+@media(max-width:1200px){
+    .container{
+        margin-top: 60px !important;
+    }
+    .d-flex{
+        padding: 20px 300px !important;
+    }
+}
+@media(max-width:990px){
+    .d-flex{
+        padding: 20px 250px !important;
+    }
+}
+@media(max-width:768px){
+    .d-flex{
+        padding: 20px 170px !important;
+    }
+    .card{
+        width: 48% !important;
+    }
+}
+@media(max-width:550px){
+    .d-flex{
+        padding: 20px 80px !important;
+    }
+}
+@media(max-width:400px){
+    .card{
+        width: 80% !important;
+    }
+}
+
+@media(max-width:300px){
+    .d-flex{
+        padding: 20px 0px !important;
+    }
+}

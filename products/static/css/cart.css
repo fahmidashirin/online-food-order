@@ -1,0 +1,102 @@
+header .logo{
+    text-decoration: none;
+}
+
+header .navbar a{
+    text-decoration: none;
+}
+.navbar a:hover{
+    text-decoration: none;
+}
+
+.cart .title .col h4{
+    font-size: 2.3rem;
+    text-align: center;
+}
+.summary h5{
+    font-size: 2.3rem;
+    text-align: center;
+}
+.main{
+    font-size: 1.5rem;
+    
+}
+.main .col-2 img{
+    height: 140px;
+    width: 140px;
+    padding: .5rem;
+}
+.main .col{
+    padding-left: 3.5rem;
+}
+.row .text-muted{
+    color: orangered !important;
+}
+.col a{
+    background-color: #acacac;
+    color: #fff;
+    padding: .3rem;
+    text-decoration: none;
+}
+.col a:hover{
+    background: #fff;
+    color: #acacac;
+}
+.back-to-shop{
+    font-size: 1.5rem;
+    margin: 3rem;
+}
+.back-to-shop a{
+    text-decoration: none;
+    color: red;
+}
+.summary{
+    padding: 7rem;
+    background: #999;
+}
+.summary .row{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.summary .btn{
+    display: inline-block;
+    padding: .5rem 1rem;
+    background: #000;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.summary .btn:hover{
+    border: .4rem solid #fff;
+    color: #fff;
+}
+
+@media(max-width:1200px){
+    .main .col .row{
+        padding-left: 4.5rem;
+    }
+}
+@media(max-width:500px){
+    .main .col-2{
+       display: none;
+    }
+    .main{
+        font-size: 1.2rem;
+    }
+    .main .col .text-muted{
+       display: none;
+    }
+    .main .col .row{
+        padding: .5rem;
+    }
+}
+@media(max-width:400px){
+    .main .col-2 img{
+        height: 40px;
+        width: 40px;
+        
+    }
+    .main h3{
+        display: none;
+    }
+}
